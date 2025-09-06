@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
-const BASE_URL = process.env.NEXT_PUBLIC_API_URL;
+const BASE_URL = "http://localhost:3000" //process.env.NEXT_PUBLIC_API_URL || "http://localhost:3000";
 
 type FetcherOptions = {
   method?: string;
